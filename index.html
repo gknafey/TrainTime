@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
 <title>Title</title>
 </head>
 <body>
@@ -64,23 +66,23 @@
                       
                       <form>
                             <div class="form-group">
-                              <label for="exampleInputEmail1">Train Name</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+                              <label>Train Name</label>
+                              <input type="text" class="form-control" id="tname">
                             </div>
 
                             <div class="form-group">
-                              <label for="exampleInputPassword1">Destination</label>
-                              <input type="password" class="form-control" id="exampleInputPassword1">
+                              <label>Destination</label>
+                              <input type="text" class="form-control" id="destin">
                             </div>
 
                             <div class="form-group">
-                                    <label for="exampleInputPassword1">First Train Time (HH:MM - military time)</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label>First Train Time (HH:MM - military time)</label>
+                                    <input type="text" class="form-control" id="stime">
                             </div>
 
                             <div class="form-group">
-                                        <label for="exampleInputPassword1">Frequency (min)</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                        <label>Frequency (min)</label>
+                                        <input type="number" class="form-control" id="frequency">
                             </div>
                             
                             <button type="submit" class="btn btn-primary" style="background-color: rgb(126, 126, 126)">Submit</button>
@@ -102,5 +104,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
 </body>
 </html>
