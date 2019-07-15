@@ -1,0 +1,18 @@
+.jumbotron {
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    font: bolder;
+    background-color: rgb(218, 161, 75);
+    color: whitesmoke;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+.submit {
+    margin: 20px 20px 20px 20px;
+    font: bolder;
+    background-color: rgb(218, 161, 75);
+    color: rgb(126, 126, 126);
+}

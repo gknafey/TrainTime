@@ -4,12 +4,100 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 <title>Title</title>
 </head>
 <body>
+
+    <div class="jumbotron jumbotron-fluid" >
+        <div class="container">
+          <h1 class="display-4">Trains Trains Trains!</h1>
+          <p class="lead">All Your Train Schedule Needs!</p>
+        </div>
+      </div>
+
+    <div class="jumbotron jumbotron-fluid">
+        <h2>Current Train Schedule</h2>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"><strong>Train Name</strong></th>
+                <th scope="col"><strong>Destination</strong></th>
+                <th scope="col"><strong>Frequency(min)</strong></th>
+                <th scope="col"><strong>Next Arrival</strong></th>
+                <th scope="col"><strong>Minutes Away</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Trenton Express</th>
+                <td>Trenton</td>
+                <td>25</td>
+                <td>05:35 PM</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <th scope="row">Oregon Trail</th>
+                <td>Salem, Oregon</td>
+                <td>3600</td>
+                <td>01:39 PM</td>
+                <td>1154</td>
+              </tr>
+              <tr>
+                <th scope="row">Midnight Carriage</th>
+                <td>Philadelpha</td>
+                <td>15</td>
+                <td>05:35 PM</td>
+                <td>10</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+
+            <div class="card submit">
+                    <h5 class="card-header" style="text-align: center">Add Train</h5>
+                    <div class="card-body">
+                      
+                      <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Train Name</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" >
+                            </div>
+
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Destination</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="exampleInputPassword1">First Train Time (HH:MM - military time)</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+                            <div class="form-group">
+                                        <label for="exampleInputPassword1">Frequency (min)</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" style="background-color: rgb(126, 126, 126)">Submit</button>
+                          </form>
+
+
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
